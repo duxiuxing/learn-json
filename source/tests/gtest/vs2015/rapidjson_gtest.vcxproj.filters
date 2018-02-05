@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{3126abc8-fc89-4a31-9e3a-8242e62d202b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="perftest">
+      <UniqueIdentifier>{926eb4cd-6096-4c9e-b511-a50f348dd7d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unittest">
+      <UniqueIdentifier>{09d9d9bb-2a36-42d1-a004-f2c8f5c8f7ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\rapidjson\test\unittest\unittest.h">
+      <Filter>unittest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\googletest\src\gtest-all.cc">
+      <Filter>gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\allocatorstest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\bigintegertest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\cursorstreamwrappertest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\documenttest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\dtoatest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\encodedstreamtest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\encodingstest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\filestreamtest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\fwdtest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\istreamwrappertest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\itoatest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\jsoncheckertest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\namespacetest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\ostreamwrappertest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\pointertest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\prettywritertest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\readertest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\regextest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\schematest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\simdtest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\strfunctest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\stringbuffertest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\strtodtest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\unittest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\valuetest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\writertest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
