@@ -3,4 +3,9 @@
 *.sdf
 *.suo
 *.VC.db
+*.VC.opendb
 *.vcxproj.user
+Debug
+Release
+x64_Debug
+x64_Release

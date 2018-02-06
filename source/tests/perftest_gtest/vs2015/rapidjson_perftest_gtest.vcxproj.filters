@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{1ef78f01-58fc-4f00-8cae-506bd8980993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="perftest">
+      <UniqueIdentifier>{c2fbab19-dc50-4eb7-8d99-819ad2b9d811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32 Console Application">
+      <UniqueIdentifier>{ccb4e257-ba4d-42c7-855d-40576c0751e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32 Console Application\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Win32 Console Application\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Win32 Console Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Win32 Console Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\third_party\rapidjson\test\perftest\perftest.h">
+      <Filter>perftest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Win32 Console Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\googletest\src\gtest-all.cc">
+      <Filter>gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\perftest\misctest.cpp">
+      <Filter>perftest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\perftest\perftest.cpp">
+      <Filter>perftest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\perftest\platformtest.cpp">
+      <Filter>perftest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\perftest\rapidjsontest.cpp">
+      <Filter>perftest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\perftest\schematest.cpp">
+      <Filter>perftest</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
