@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rapidjson_gtest", "source\tests\gtest\vs2015\rapidjson_gtest.vcxproj", "{15CF4292-70E2-4D8A-A139-5E5B974AACE1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rapidjson_unittest_gtest", "source\tests\unittest_gtest\vs2015\rapidjson_unittest_gtest.vcxproj", "{15CF4292-70E2-4D8A-A139-5E5B974AACE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{15CF4292-70E2-4D8A-A139-5E5B974AACE1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>rapidjson_gtest</RootNamespace>
+    <RootNamespace>rapidjson_unittest_gtest</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

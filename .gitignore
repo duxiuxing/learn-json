@@ -1,0 +1,6 @@
+*.ipch
+*.opensdf
+*.sdf
+*.suo
+*.VC.db
+*.vcxproj.user
