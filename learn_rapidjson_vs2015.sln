@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rapidjson_unittest_gtest", "source\tests\unittest_gtest\vs2015\rapidjson_unittest_gtest.vcxproj", "{15CF4292-70E2-4D8A-A139-5E5B974AACE1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unittest_gtest", "source\tests\unittest_gtest\vs2015\unittest_gtest.vcxproj", "{15CF4292-70E2-4D8A-A139-5E5B974AACE1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rapidjson_perftest_gtest", "source\tests\perftest_gtest\vs2015\rapidjson_perftest_gtest.vcxproj", "{D5077D3C-E749-4F31-990C-3532330C99C5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "perftest_gtest", "source\tests\perftest_gtest\vs2015\perftest_gtest.vcxproj", "{D5077D3C-E749-4F31-990C-3532330C99C5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rapidjson_perftest_cutest", "source\tests\perftest_cutest\vs2015\rapidjson_perftest_cutest.vcxproj", "{7AFD4BA6-B5BE-4F19-A8B6-8EE5ED7019BD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "perftest_cutest", "source\tests\perftest_cutest\vs2015\perftest_cutest.vcxproj", "{7AFD4BA6-B5BE-4F19-A8B6-8EE5ED7019BD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rapidjson_unittest_cutest", "source\tests\unittest_cutest\vs2015\rapidjson_unittest_cutest.vcxproj", "{12ABB85C-0E98-4B46-AF6C-9E547C41CE9C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unittest_cutest", "source\tests\unittest_cutest\vs2015\unittest_cutest.vcxproj", "{12ABB85C-0E98-4B46-AF6C-9E547C41CE9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
