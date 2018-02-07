@@ -23,6 +23,9 @@
     <ClInclude Include="targetver.h">
       <Filter>Win32 DLL\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\third_party\rapidjson\test\unittest\unittest.h">
+      <Filter>unittest</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -104,6 +107,9 @@
       <Filter>unittest</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\writertest.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\third_party\rapidjson\test\unittest\unittest.cpp">
       <Filter>unittest</Filter>
     </ClCompile>
   </ItemGroup>
